@@ -3,7 +3,7 @@
 
 ---
 ## About
-* Current state demonstrates metrics running against the quantum simulator. This is used for accurately estimating resources needed to run on a quantum computer and depth of entanglement which of course, aid in bug detection.
+* Current state demonstrates metrics running against the quantum simulator. This is used for accurately estimating resources needed to run on a quantum computer and depth of entanglement which of course, aids in bug detection.
 
 * Future state will demonstrate quantum algorithms.
 
