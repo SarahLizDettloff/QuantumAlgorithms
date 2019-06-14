@@ -3,7 +3,7 @@
 
 ---
 ## About
-* The quantum simulator supplied by Microsoft's Quantum Development Kit allows demonstrations of quantum algorithms. This project contains an exhitbit of entangement. During each run of this program it informs the user of the estimatd resources needed to run it on a quantum computer. Concepts covered are: Toffoli gate, Pauli-Z Gate, and Bell States. 
+* The quantum simulator supplied by Microsoft's Quantum Development Kit allows demonstrations of quantum algorithms. This project contains an exhitbit of entangement. During each run of this program it informs the user of the estimatd resources needed to run it on a quantum computer. Concepts covered are: Pauli-Z Gate, and Bell States. 
 
 <b>Example output in terminal:</b>
 ```   
