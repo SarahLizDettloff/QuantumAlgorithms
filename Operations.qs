@@ -14,6 +14,8 @@
 
 	 operation QuantumAlgorithmsTest (count : Int, initial: Result) : (Int, Int, Int)
     {
+	// This is an example of entanglement using Bell States
+	// Which is the concept that two qubits represent the simplest example of extanglement
 		mutable numOnes = 0;
         mutable agree = 0;
         using (qubits = Qubit[2])
@@ -44,16 +46,16 @@
     }
 
 	operation Teleportation (source : Qubit, target : Qubit) : Unit {
-    body (...) {
-        using (ancillaRegister = Qubit[1]) {
-            let ancilla = ancillaRegister[0];
+	// Probablity of measurable outcomes
+	// ancilla is known as auxiliary I.E. constant input
+        using (ancilla = Qubit()) {
 
             H(ancilla);
             CNOT(ancilla, target);
 
             CNOT(source, ancilla);
             H(source);
-
+			// Pauli-Z Gate, acts on a single qubit
             AssertProb([PauliZ], [source], Zero, 0.5, "Outcomes must be equally likely", 1e-5);
             AssertProb([PauliZ], [ancilla], Zero, 0.5, "Outcomes must be equally likely", 1e-5);
 
@@ -63,4 +65,3 @@
     }
 	}
 	
-}
