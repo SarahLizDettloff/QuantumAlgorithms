@@ -3,14 +3,12 @@
 
 ---
 ## About
-* Current state demonstrates metrics running against the quantum simulator. This is used for accurately estimating resources needed to run on a quantum computer and depth of entanglement which of course, aids in bug detection.
-
-* Future state will demonstrate quantum algorithms.
+* The quantum simulator supplied by Microsoft's Quantum Development Kit allows demonstrations of quantum algorithms. This project contains an exhitbit of entangement. During each run of this program it informs the user of the estimatd resources needed to run it on a quantum computer. 
 
 ## Built with
-* [Quantum Development Kit](https://www.microsoft.com/en-us/quantum/development-kit) : Development Kit
+* [Quantum Development Kit](https://www.microsoft.com/en-us/quantum/development-kit)
 
-* [Visual Studio Code 2017 Community](https://code.visualstudio.com/) : Source code editor of choice
+* [Visual Studio Code 2017 Community](https://code.visualstudio.com/)
 
 ## References
 
